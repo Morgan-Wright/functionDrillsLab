@@ -80,13 +80,13 @@
 
 //CODE HERE
 
-function compareNums(num1, num2) => {
-  if (num1 > num2){
-    return num1
-  } else{
-    return num2
-  }
-}
+// function compareNums(num1, num2) => {
+//   if (num1 > num2){
+//     return num1
+//   } else{
+//     return num2
+//   }
+// }
 
 
 ////////////////// PROBLEM 6 ////////////////////
@@ -99,6 +99,13 @@ function compareNums(num1, num2) => {
 
 //CODE HERE
 
+function add(num1, num2){
+  num1 = +num1
+  num2 = +num2
+  return num1 +num2
+}
+
+let sum = add(12, 17)
 
 ////////////////// PROBLEM 7 ////////////////////
 
