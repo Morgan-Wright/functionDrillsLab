@@ -201,20 +201,20 @@
 
 //CODE HERE
 
-function faveColorFinder(color){
-  if(color === 'red'){
-    return 'red is a great color'
- } else if(color === 'green'){
-   return 'green is a solid favorite color'
- } else if(color === 'black'){
-   return 'so trendy'
- } else{
-   return 'you need to evaluate your favorite color choice'
- }
+// function faveColorFinder(color){
+//   if(color === 'red'){
+//     return 'red is a great color'
+//  } else if(color === 'green'){
+//    return 'green is a solid favorite color'
+//  } else if(color === 'black'){
+//    return 'so trendy'
+//  } else{
+//    return 'you need to evaluate your favorite color choice'
+//  }
 
-}
+// }
 
-let colorRating = faveColorFinder('red')
+// let colorRating = faveColorFinder('red')
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -226,6 +226,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
+function printAllNames(namesArr){
+  for(let i = 0; i < namesArr.length; i++)
+  console.log(names[i])
+}
+
+printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
