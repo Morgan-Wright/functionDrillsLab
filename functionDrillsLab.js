@@ -99,13 +99,13 @@
 
 //CODE HERE
 
-function add(num1, num2){
-  num1 = +num1
-  num2 = +num2
-  return num1 +num2
-}
+// function add(num1, num2){
+//   num1 = +num1
+//   num2 = +num2
+//   return num1 +num2
+// }
 
-let sum = add(12, 17)
+// let sum = add(12, 17)
 
 ////////////////// PROBLEM 7 ////////////////////
 
@@ -120,7 +120,7 @@ const exclaim = function(str) {
 
 // arrow
 // declaration
-// expression
+expression
 
 
 
