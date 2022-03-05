@@ -59,12 +59,12 @@
 
 //CODE HERE
 
-function greeting(name){
-  name = String(name)
-  console.log(`Hello, ${name}`)
-}
+// function greeting(name){
+//   name = String(name)
+//   console.log(`Hello, ${name}`)
+// }
 
-greeting('Morgan')
+// greeting('Morgan')
 
 
 ////////////////// PROBLEM 5 ////////////////////
@@ -79,6 +79,14 @@ greeting('Morgan')
 */
 
 //CODE HERE
+
+function compareNums(num1, num2) => {
+  if (num1 > num2){
+    return num1
+  } else{
+    return num2
+  }
+}
 
 
 ////////////////// PROBLEM 6 ////////////////////
