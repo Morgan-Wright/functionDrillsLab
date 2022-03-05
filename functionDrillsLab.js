@@ -243,14 +243,14 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
-function thatsOdd(num){
-  if (num % 2 === 0){
-    return 'even number'
-  } else{
-    return 'odd number'
-  }
-}
-let oddChecker = thatsOdd(9)
+// function thatsOdd(num){
+//   if (num % 2 === 0){
+//     return 'even number'
+//   } else{
+//     return 'odd number'
+//   }
+// }
+// let oddChecker = thatsOdd(9)
 
 ////////////////// PROBLEM 14 ////////////////////
 
@@ -263,6 +263,8 @@ let oddChecker = thatsOdd(9)
 */
 
 //CODE HERE
+
+const bestMovie = title => `${title} is the best movie ever`
 
 
 ////////////////// PROBLEM 15 ////////////////////
