@@ -27,6 +27,8 @@ helloWorld()
 
 //CODE HERE
 
+function jsNinja() => 'I am a JavaScript ninja!'
+
 
 ////////////////// PROBLEM 3 ////////////////////
 /*
