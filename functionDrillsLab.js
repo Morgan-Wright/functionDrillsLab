@@ -40,11 +40,11 @@
 //CODE HERE
 
 
-function printname(name){
-  console.log(name)
-}
+// function printname(name){
+//   console.log(name)
+// }
 
-printname('Morgan')
+// printname('Morgan')
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
@@ -58,6 +58,13 @@ printname('Morgan')
 */
 
 //CODE HERE
+
+function greeting(name){
+  name = String(name)
+  console.log(`Hello, ${name}`)
+}
+
+greeting('Morgan')
 
 
 ////////////////// PROBLEM 5 ////////////////////
