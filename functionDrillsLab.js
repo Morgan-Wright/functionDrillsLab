@@ -226,12 +226,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 
 //CODE HERE
 
-function printAllNames(namesArr){
-  for(let i = 0; i < namesArr.length; i++)
-  console.log(names[i])
-}
+// function printAllNames(namesArr){
+//   for(let i = 0; i < namesArr.length; i++)
+//   console.log(names[i])
+// }
 
-printAllNames(namesArr)
+// printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
@@ -243,6 +243,14 @@ printAllNames(namesArr)
 
 //CODE HERE
 
+function thatsOdd(num){
+  if (num % 2 === 0){
+    return 'even number'
+  } else{
+    return 'odd number'
+  }
+}
+let oddChecker = thatsOdd(9)
 
 ////////////////// PROBLEM 14 ////////////////////
 
